@@ -1,14 +1,14 @@
 // NPM Packages - dependencies that this application needs
   // ==============================================================================
-  var express = require("express");
-  var bodyParser = require("body-parser");
-  var path = require("path");
+  const express = require("express");
+  const bodyParser = require("body-parser");
+  const path = require("path");
 
 // EXPRESS setup and initializing a default port
   // ==============================================================================
   // Create the express server
-  var app = express();
-  var PORT = process.env.POR || 8080;
+  const app = express();
+  const PORT = process.env.POR || 8080;
 
 // BODY PARSER Sets up the Express app to handle data parsing
   // ==============================================================================
@@ -18,8 +18,8 @@
 
 // ROUTING - pointing our server to the routes
   // ==============================================================================
-  require("./routes/apiRoutes")(app);
-  require("./routes/htmlRoutes")(app);
+  require("./app/routes/apiRoutes")(app);
+  require("./app/routes/htmlRoutes")(app);
 
 // LISTEN - start the server, let the console know the server is running
   // =============================================================================
