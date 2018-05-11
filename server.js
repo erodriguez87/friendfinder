@@ -15,11 +15,10 @@
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
 
-
 // ROUTING - pointing our server to the routes
   // ==============================================================================
-  require("./app/routes/apiRoutes")(app);
-  require("./app/routes/htmlRoutes")(app);
+  require("./app/routes/apiRoutes.js")(app);
+  require("./app/routes/htmlRoutes.js")(app);
 
 // LISTEN - start the server, let the console know the server is running
   // =============================================================================

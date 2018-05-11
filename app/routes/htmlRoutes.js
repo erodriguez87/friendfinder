@@ -1,7 +1,7 @@
 // Variables and dependencies
   const path = require("path");
 
-// Routes
+// Routes for the user to get to different html pagesc
   module.exports = function(app) {
 
     //survey route
