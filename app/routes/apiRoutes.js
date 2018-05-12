@@ -37,8 +37,9 @@ var friendData = require("../data/friends");
       res.json(friendData[index]);
     });
 
+    //secret route for clearing the array
     app.post("/api/clear", function() {
-      // Empty out the arrays of data
+    
       friendData = [];
       console.log(friendData);
     });

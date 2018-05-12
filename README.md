@@ -17,5 +17,3 @@ The new person is compared to everyone in a javascript variable and
    * [Body-Parser](https://www.npmjs.com/package/express)
 
 ![title image](title.png)
-
-* Check out [this demo version of the site](https://friend-finder-fsf.herokuapp.com/). Use this as a model for how we expect your assignment look and operate.
