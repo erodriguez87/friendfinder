@@ -1,8 +1,8 @@
 // DATA
   var friendArray = [
     {
-      "name":"Ahmed",
-      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "name":"Captain Planet",
+      "photo":"https://i.imgur.com/PUPIuug.jpg",
       "scores":[
           5,
           1,
@@ -18,7 +18,7 @@
     },
     {
       "name":"barney",
-      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "photo":"https://i.imgur.com/spe4a9T.jpg",
       "scores":[
           1,
           4,
@@ -34,18 +34,34 @@
     },
     {
       "name":"nemo",
-      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "photo":"https://i.imgur.com/Rphg9Ts.jpg",
       "scores":[
+          2,
+          1,
           3,
+          5,
+          4,
+          4,
           3,
+          1,
           3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3
+          2
+        ]
+    },
+    {
+      "name":"spongebob",
+      "photo":"https://i.imgur.com/HqeyX4i.png",
+      "scores":[
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
         ]
     }
   ];

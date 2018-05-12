@@ -25,16 +25,16 @@ var friendData = require("../data/friends");
 
       var index = 0;
       var value = totalDiff[0];
-      for (var l = 1; i<totalDiff.length; l++){
-        if(totalDiff[i] < value){
-          value = totalDiff[i];
-          index = i;
+      for (var l = 0; l<totalDiff.length; l++){
+        if(totalDiff[l] < value){
+          value = totalDiff[l];
+          index = l;
         }
       }
 
       console.log('you are most similar to ' + friendData[index].name + ' with a total difference of ' + totalDiff[index])
 
-      res.json(true);
+      res.json(friendData[index]);
     });
 
     app.post("/api/clear", function() {
