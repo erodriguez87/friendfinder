@@ -8,7 +8,7 @@
   // ==============================================================================
   // Create the express server
   const app = express();
-  const PORT = process.env.POR || 8080;
+  const PORT = process.env.PORT || P8080;
 
 // BODY PARSER Sets up the Express app to handle data parsing
   // ==============================================================================
