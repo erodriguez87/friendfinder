@@ -13,8 +13,8 @@ The new person is compared to everyone in a javascript variable and
 
 ### Packages included
 
-   * [Inquirer](https://www.npmjs.com/package/inquirer)
    * [Express](https://www.npmjs.com/package/express)
+   * [Body-Parser](https://www.npmjs.com/package/express)
 
 ![title image](title.png)
 
