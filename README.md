@@ -2,8 +2,7 @@
 ### Contributor:       Eddie Rodriguez
 ### GitHub URL:        https://github.com/erodriguez87/friendfinder
 ### Heroku URL:        https://findnicepeople.herokuapp.com/
-### Video Example Customer View: https://youtu.be/aZSgXhHLNB8
-### Video Example Manager View: https://youtu.be/DfHDKznm3zk
+### Video Example:     https://youtu.be/5WzO4TQ7pAY
 
 This is an application published through heroku with an express server and a couple of HTML pages. The app handles a series of questions for each user and matches the results with the database to find friends that have similar scores.
 
