@@ -17,7 +17,7 @@
 
 // ROUTING - pointing our server to the routes
   // ==============================================================================
-  require("./app/routes/apiRoutes.js")(app);
+  require("./app/routes/apiRoutes.js")(app); //this needs to go first, html uses
   require("./app/routes/htmlRoutes.js")(app);
 
 // LISTEN - start the server, let the console know the server is running
